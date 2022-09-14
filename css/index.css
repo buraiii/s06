@@ -1,0 +1,54 @@
+/* external css */
+#external{
+	color: yellow;
+}
+
+/* universal selector */
+*{
+	font-family: "Verdana";
+	font-size: 20px;
+}
+
+/* type selector */
+h1{
+	font-size: 3rem;
+}
+
+/* id selector */
+#things-to-learn{
+	text-transform: uppercase;
+}
+
+/* class selector */
+.language-list{
+	background-color: #aed19d;
+}
+
+/* attribute selector */
+ol[type]{
+	border:1px solid blue;
+}
+
+
+/* adjacent sibling selector */
+img + ul{
+	list-style-type: circle;
+}
+
+
+/* descendant selector */
+section img{
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+}
+
+/* child selector */
+ul > li{
+	letter-spacing: 10px;
+}
+
+/* generic sibling selector */
+h4 ~ p{
+	text-align: center;
+}
