@@ -25,7 +25,7 @@ h1{
 }
 
 /* attribute selector */
-ol[type]{
+li[class]{
 	border:1px solid blue;
 }
 
