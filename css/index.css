@@ -32,7 +32,7 @@ li[Id]{
 
 /* adjacent sibling selector */
 img + ul{
-	list-style-type: circle;
+	list-style-type: none;
 }
 
 
